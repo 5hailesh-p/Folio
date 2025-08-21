@@ -1,3 +1,6 @@
+import {SITE_NAME} from "../Constants/Site"
+
+
 function Footer() {
     return (
         <>
@@ -7,7 +10,7 @@ function Footer() {
 
 
                         <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <h5 className="text-uppercase mb-4 fw-bold text-info">Your Name</h5>
+                            <h5 className="text-uppercase mb-4 fw-bold text-info">{SITE_NAME}</h5>
                             <p>
                                 Creative web developer specializing in front-end development. Passionate about clean code, responsive design, and beautiful UI.
                             </p>
@@ -45,7 +48,7 @@ function Footer() {
 
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <p className="mb-0">© 2025 Your Name. All rights reserved.</p>
+                                <p className="mb-0">© 2025 {SITE_NAME}. All rights reserved.</p>
                             </div>
                         </div>
                 </div>
