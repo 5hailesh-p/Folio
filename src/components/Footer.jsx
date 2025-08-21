@@ -48,7 +48,7 @@ function Footer() {
 
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <p className="mb-0">© 2025 {SITE_NAME}. All rights reserved.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
                             </div>
                         </div>
                 </div>
