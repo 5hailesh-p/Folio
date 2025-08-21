@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <>
-            <footer className="bg-dark text-light pt-5 pb-4" bg="bg3">
+            <footer className="  text-light pt-5 pb-4" bg="bg3">
                 <div className="container text-center text-md-start">
                     <div className="row text-center text-md-start">
 
