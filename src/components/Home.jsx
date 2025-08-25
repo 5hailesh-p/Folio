@@ -8,6 +8,7 @@ function Home(){
         <>
        
         <section className="section section-hero">
+            
             <div className="container">
                 <div className="row align-items-center min-vh-100">
                     <div className="col-md-6 text-center text-md-start">
