@@ -1,3 +1,9 @@
+import { CV } from "../Constants/Site"
+
+ 
+
+
+
 function Header(props) {
     return (
         <>
@@ -13,13 +19,13 @@ function Header(props) {
                                 <a className="nav-link active btn btn-nav" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link btn btn-nav" href="#">Features</a>
+                                <a className="nav-link btn btn-nav" href="#about">About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link btn btn-nav" href="#">Pricing</a>
+                                <a className="nav-link btn btn-nav" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item position-relative">
-                                <a className=" btn  btn-dwn" href="#" download >Download</a>
+                                <a className=" btn  btn-dwn" href={CV}  download >Download CV</a>
                             </li>
                             
                         </ul>

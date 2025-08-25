@@ -3,7 +3,7 @@ import { ProfilePic } from "./Home";
 function About(){
     return(
         <>
-            <section className="section  py-5" bg="bg1">
+            <section className="section  py-5" bg="bg1" id="about">
                 <div className="container ">
                     <div className="row align-items-center">
                         <div className="col-md-8">

@@ -8,7 +8,7 @@ function Project() {
 
     return (
         <>
-            <section className="section py-5" bg="bg1">
+            <section className="section py-5" bg="bg1" id="projects">
                 <div className="container">
                     <div className="row g-4">
                     { PROJECTS.map((project, index) => (

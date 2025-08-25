@@ -1,4 +1,5 @@
-import {SITE_NAME} from "../Constants/Site"
+import {SITE_NAME,SOCIAL_LINKS} from "../Constants/Site"
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 function Footer() {
@@ -36,10 +37,10 @@ function Footer() {
 
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
                             <h5 className="text-uppercase mb-4 fw-bold text-info">Follow Me</h5>
-                            <a href="#" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-github"></i></a>
-                            <a href="#" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-linkedin"></i></a>
-                            <a href="#" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-twitter"></i></a>
-                            <a href="#" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-instagram"></i></a>
+                            <a href={SOCIAL_LINKS.GITHUB} target="_blank" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-github"></i></a>
+                            <a href={SOCIAL_LINKS.LINKEDIN} target="_blank" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-linkedin"></i></a>
+                            <a href={SOCIAL_LINKS.TWITTER} target="_blank" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-twitter"></i></a>
+                            <a href={SOCIAL_LINKS.INSTAGRAM} target="_blank" className="btn btn-outline-light btn-floating m-1" role="button"><i className="bi bi-instagram"></i></a>
                         </div>
                     </div>
 

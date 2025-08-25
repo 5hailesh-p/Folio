@@ -25,7 +25,7 @@ function Home() {
                 </div>
             </section>
 
-            <About />
+            <About  />
 
             <Skills />
 

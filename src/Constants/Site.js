@@ -19,6 +19,16 @@ export const SKILLS = {
   PYTHON: "70",
 };
 
+export const SOCIAL_LINKS = {
+  GITHUB:'https://github.com/5hailesh-p',
+  LINKEDIN:'https://www.linkedin.com/in/shailesh-patel-',
+  INSTAGRAM:'https://www.instagram.com/5hailesh_p',
+  TWITTER:'#',
+
+}
+
+export const CV ="#";
+
 
  
 export const PROJECTS = [
